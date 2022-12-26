@@ -1,0 +1,20 @@
+# **$for**
+> **Like javascript for** <br/>
+> $for[start;condition;iterator;code]
+- - -
+
+### Fields
+| name | description | type | required |
+|------|-------------|------|----------|
+| Start | Unknown | Number | True |
+| Condition | Unknown | String&lt;interpretableCode&lt;boolean&gt;&gt; | True |
+| Iterator | Unknown | String&lt;interpretableCode&gt; | string&lt;default | default2&gt; | True |
+| Code | Unknown | String&lt;interpretableCode&gt; | True |
+
+### Returns
+> Void
+
+### Example
+> ```php
+$for[0;$var[index]&lt;100;default;$log[;INDEX NUMBER $var[index]]]
+```

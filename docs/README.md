@@ -5,21 +5,12 @@
 
 - - -
 
-## CHANGELOG
-
-> [+] Added New Functions ($camel, $escape, $unescape, $ceil, $floor, $round, $join, etc) <br/>
-> [/] Fixes in [interpreter, $eval, $var, $if] <br/>
-> [@] $var now auto-detect types [regex, number, bigint, object] <br/>
-> [@] $var, $isJson and $appCmd now uses HJson (optional in $isJson)
-
-- - -
-
 ```js
 // import { AkitaClient } from "akita.ts";
 var { AkitaClient } = require("akita.ts"),
     client = new AkitaClient({
-        intents: [1, 2, 512, 32768] /* discord intents */
-    }, "PREFIX");
+        intents: [1, 2, 512, 32768] /* example discord intents */
+    }, "BOT_PREFIX");
 client.onMessageCreate();
 client.addCommand({
     names: ["test"],
@@ -57,7 +48,7 @@ client.interpreter.addFunction({
 });
 ~~~
 
-### Function Interface `(for d.func)`
+### Function Interface <small>*(for d.func)*</small>
 
 ~~~json
 {
