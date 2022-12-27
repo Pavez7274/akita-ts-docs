@@ -17,5 +17,5 @@
 > ```php
 $var[str;hi, im a string] // string var
 $var[num;4] // number var
-$var[obj;{ &quot;leif&quot;: &quot;erikson&quot; }] // object var
+$var[obj;{ "leif": "erikson" }] // object var
 ```

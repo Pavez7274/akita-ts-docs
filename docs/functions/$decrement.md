@@ -1,6 +1,6 @@
-# **$increment**
-> **Increments a numeric variable by 1** <br/>
-> $increment[key;type?]
+# **$decrement**
+> **Decrements a numeric variable by 1** <br/>
+> $decrement[key;type?]
 - - -
 
 ### Fields
@@ -15,6 +15,6 @@
 ### Example
 > ```php
 $var[index;4] $var[xedni;8]
-$increment[index] // increments and return 5
-$increment[xedni;postfix] // increments and return 8
+$decrement[index] // increments and return 3
+$increment[xedni;postfix] // decrements and return 8
 ```

@@ -1,13 +1,13 @@
 # **$color**
-> **Sets the color of this embed** <br/>
+> **Sets the color of the embed** <br/>
 > $color[index;colorResolvable]
 - - -
 
 ### Fields
 | name | description | type | required |
 |------|-------------|------|----------|
-| Index | Unknown | Number[0,4] | True |
-| ColorResolvable | Unknown | String&lt;hex &#124; name&gt; | True |
+| Index | The index of the embed | Number[0,4] | True |
+| ColorResolvable | The color of the embed | String&lt;hex &#124; name&gt; | True |
 
 ### Returns
 > Void

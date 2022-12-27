@@ -1,12 +1,12 @@
 # **$push**
-> **Like Array.push** <br/>
+> **Adds elements to the end of an array and returns the new length of the array** <br/>
 > $push[key;...items]
 - - -
 
 ### Fields
 | name | description | type | required |
 |------|-------------|------|----------|
-| Key | Unknown | String | True |
+| Key | Unknown | String&lt;variable&gt; | True |
 | ...items | Unknown | Any | True |
 
 ### Returns

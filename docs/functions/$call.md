@@ -14,6 +14,6 @@
 
 ### Example
 > ```php
-// client.addCallback(&quot;test&quot;, &quot;$log[TEST;hi $1!!]&quot;)
+// client.addCallback("test", "$log[TEST;hi $1!!]")
 $call[test;Pavez] // TEST ;; hi Pavez!!
 ```

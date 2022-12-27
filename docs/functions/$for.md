@@ -16,5 +16,5 @@
 
 ### Example
 > ```php
-$for[0;$var[index]&lt;100;default;$log[;INDEX NUMBER $var[index]]]
+$for[0;$var[index]<100;default;$log[;INDEX NUMBER $var[index]]]
 ```

@@ -6,8 +6,8 @@
 ### Fields
 | name | description | type | required |
 |------|-------------|------|----------|
-| Index | Unknown | Number[0,4] | True |
-| Text | Unknown | String | True |
+| Index | The index of the embed | Number[0,4] | True |
+| Text | The description of the embed | String | True |
 
 ### Returns
 > Void

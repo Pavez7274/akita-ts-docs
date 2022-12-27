@@ -6,7 +6,7 @@
 ### Fields
 | name | description | type | required |
 |------|-------------|------|----------|
-| Text | Unknown | String | True |
+| Text | The content of the instance | String | True |
 
 ### Returns
 > Void

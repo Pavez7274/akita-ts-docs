@@ -6,9 +6,9 @@
 ### Fields
 | name | description | type | required |
 |------|-------------|------|----------|
-| Index | Unknown | Number[0,4] | True |
-| Text | Unknown | String | True |
-| IconURL | Unknown | String&lt;URL&gt; | True |
+| Index | The index of the embed | Number[0,4] | True |
+| Text | The text of the embed footer | String | True |
+| IconURL | The icon of the embed footer | String&lt;URL&gt; | True |
 
 ### Returns
 > Void

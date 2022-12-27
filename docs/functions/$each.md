@@ -15,7 +15,7 @@
 
 ### Example
 > ```php
-$var[texts;[&quot;hi&quot;, &quot;nya&quot;, &quot;ily paul banks&quot;]]
+$var[texts;["hi", "nya", "ily paul banks"]]
 $each[texts;
 	$log[EACH INFO;$var[item]]
 ]

@@ -17,7 +17,7 @@
 > ```php
 $var[n;0]
 $var[x;0]
-$while[3&gt;n;
+$while[3>n;
 	$var[n;$math[$var[n]+1]]
 	$var[x;$math[$var[x]+$var[n]]]
 ]

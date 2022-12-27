@@ -6,15 +6,15 @@
 ### Fields
 | name | description | type | required |
 |------|-------------|------|----------|
-| Key | Unknown | String&lt;variable&gt; &#124; array | True |
-| Separator | Unknown | String | False |
+| Key | The key of the array to join or a json array | String&lt;variable&gt; &#124; array | True |
+| Separator | The element separator | String | False |
 
 ### Returns
 > Unknown
 
 ### Example
 > ```php
-$var[array;[&quot;hola!&quot;, &quot;sabias&quot;, &quot;que&quot;, &quot;hablo&quot;, &quot;español?&quot;]]
+$var[array;["hola!", "sabias", "que", "hablo", "español?"]]
 $join[array] // hola! sabias que hablo español?
 $join[[1, 2, 3, 4];-] // 1-2-3-4
 ```
