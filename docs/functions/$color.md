@@ -7,7 +7,7 @@
 | name | description | type | required |
 |------|-------------|------|----------|
 | Index | Unknown | Number[0,4] | True |
-| ColorResolvable | Unknown | String&lt;hex | name&gt; | True |
+| ColorResolvable | Unknown | String&lt;hex &#124; name&gt; | True |
 
 ### Returns
 > Void

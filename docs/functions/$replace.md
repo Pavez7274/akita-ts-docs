@@ -7,8 +7,8 @@
 | name | description | type | required |
 |------|-------------|------|----------|
 | Text | Unknown | String | True |
-| Pattern | Unknown | String | regexp | True |
-| Replacer | Unknown | String | void | True |
+| Pattern | Unknown | String &#124; regexp | True |
+| Replacer | Unknown | String &#124; void | True |
 
 ### Returns
 > Void

@@ -6,7 +6,7 @@
 ### Fields
 | name | description | type | required |
 |------|-------------|------|----------|
-| Key | Unknown | String&lt;variable&gt; | array | True |
+| Key | Unknown | String&lt;variable&gt; &#124; array | True |
 | Separator | Unknown | String | False |
 
 ### Returns

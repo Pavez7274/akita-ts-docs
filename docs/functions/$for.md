@@ -8,7 +8,7 @@
 |------|-------------|------|----------|
 | Start | Unknown | Number | True |
 | Condition | Unknown | String&lt;interpretableCode&lt;boolean&gt;&gt; | True |
-| Iterator | Unknown | String&lt;interpretableCode&gt; | string&lt;default | default2&gt; | True |
+| Iterator | Unknown | String&lt;interpretableCode&gt; &#124; string&lt;default &#124; default2&gt; | True |
 | Code | Unknown | String&lt;interpretableCode&gt; | True |
 
 ### Returns

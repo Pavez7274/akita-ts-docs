@@ -7,7 +7,7 @@
 | name | description | type | required |
 |------|-------------|------|----------|
 | Key | Unknown | String | True |
-| Type | Unknown | &quot;prefix&quot; | &quot;postfix&quot; | False |
+| Type | Unknown | &quot;prefix&quot; &#124; &quot;postfix&quot; | False |
 
 ### Returns
 > Number

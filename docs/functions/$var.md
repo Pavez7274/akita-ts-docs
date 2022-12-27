@@ -8,7 +8,7 @@
 |------|-------------|------|----------|
 | Key | Unknown | String | True |
 | Value | Unknown | Any | True |
-| Type | Unknown | &quot;unknown&quot; | &quot;string&quot; | &quot;number&quot; | &quot;bigint&quot; | &quot;regexp&quot; | &quot;json&quot; | True |
+| Type | Unknown | &quot;unknown&quot; &#124; &quot;string&quot; &#124; &quot;number&quot; &#124; &quot;bigint&quot; &#124; &quot;regexp&quot; &#124; &quot;json&quot; | True |
 
 ### Returns
 > String
