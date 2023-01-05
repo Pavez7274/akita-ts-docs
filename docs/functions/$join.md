@@ -1,5 +1,5 @@
 # **$join**
-> **...** <br/>
+> **Unify the values of an array in a string** <br/>
 > $join[key;separator?]
 - - -
 
@@ -10,11 +10,10 @@
 | Separator | The element separator | String | False |
 
 ### Returns
-> Unknown
+> String
 
 ### Example
 > ```php
 $var[array;["hola!", "sabias", "que", "hablo", "español?"]]
 $join[array] // hola! sabias que hablo español?
-$join[[1, 2, 3, 4];-] // 1-2-3-4
 ```

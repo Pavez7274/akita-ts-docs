@@ -8,7 +8,7 @@
 |------|-------------|------|----------|
 | Var | Unknown | String | True |
 | Code | Unknown | String&lt;interpretableCode&gt; | True |
-| Type | Unknown | Number[1,2] | False |
+| Type | Unknown | String&lt;left &#124; right&gt; | False |
 
 ### Returns
 > Void

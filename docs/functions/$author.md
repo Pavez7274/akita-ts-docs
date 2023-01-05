@@ -14,4 +14,6 @@
 ### Example
 > ```php
 $author[id]
+// using funcs
+$author[]
 ```

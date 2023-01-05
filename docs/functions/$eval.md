@@ -6,12 +6,12 @@
 ### Fields
 | name | description | type | required |
 |------|-------------|------|----------|
-| Code | Unknown | String&lt;interpretableCode&gt; | True |
+| Code | Code to evaluate | String&lt;interpretableCode&gt; | True |
 
 ### Returns
 > Unknown
 
 ### Example
 > ```php
-$eval[$args]
+$eval[$yield[$args]]
 ```

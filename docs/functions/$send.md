@@ -9,7 +9,7 @@
 | ReturnId | Unknown | Boolean | True |
 
 ### Returns
-> T&lt;returnId&gt; ? Number : Void
+> ReturnId ? Number : Void
 
 ### Example
 > ```php
