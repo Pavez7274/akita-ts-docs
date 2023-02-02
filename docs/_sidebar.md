@@ -1,3 +1,13 @@
+<!-- docs/_sidebar.md -->
+
+- **Getting started**
+
+* [Home](/)
+* [Types](/types.md)
+* [Advanced](/advanced.md)
+
+- **Functions**
+
 * [$ban](functions/$ban.md)
 * [$unban](functions/$unban.md)
 * [$flat](functions/$flat.md)
@@ -17,6 +27,7 @@
 * [$data](functions/$data.md)
 * [$metadata](functions/$metadata.md)
 * [$stamp](functions/$stamp.md)
+* [$user](functions/$user.md)
 * [$each](functions/$each.md)
 * [$for](functions/$for.md)
 * [$item](functions/$item.md)
@@ -52,8 +63,10 @@
 * [$startsWith](functions/$startsWith.md)
 * [$unescape](functions/$unescape.md)
 * [$upper](functions/$upper.md)
+* [$warp](functions/$warp.md)
 * [$addTimeout](functions/$addTimeout.md)
 * [$isJSON](functions/$isJSON.md)
+* [$isValidHex](functions/$isValidHex.md)
 * [$jsonParse](functions/$jsonParse.md)
 * [$decrement](functions/$decrement.md)
 * [$increment](functions/$increment.md)

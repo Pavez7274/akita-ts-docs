@@ -14,6 +14,7 @@
 ### Example
 > ```php
 $author[id]
+
 // using funcs
-$author[]
+$author[invoke:displayAvatarURL->avatar;{ size: 2048 }]
 ```

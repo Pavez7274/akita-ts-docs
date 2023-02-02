@@ -7,7 +7,7 @@
 | name | description | type | required |
 |------|-------------|------|----------|
 | Key | The key of the array to join or a json array | String&lt;variable&gt; | True |
-| Separator | The depth level specifying how deep a nested array structure should be flattened | String | False |
+| Separator | The depth level specifying how deep a nested array structure should be flattened `(default: Infinity)` | String | False |
 
 ### Returns
 > Any[]

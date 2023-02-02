@@ -13,5 +13,5 @@
 
 ### Example
 > ```php
-$ctx[data.guild.name]
+$ctx[data.guild;id]
 ```

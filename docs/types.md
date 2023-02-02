@@ -8,8 +8,8 @@
 
 ##### String
 > Sequence of characters used to represent the text. <br/>
-> See more [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String).
+> <small>See more [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String).</small>
 
 ##### Number
 > Floating-point numbers. <br/>
-> See more [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number).
+> <small>See more [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number).</small>

@@ -7,7 +7,7 @@
 | name | description | type | required |
 |------|-------------|------|----------|
 | Key | The key of the array to join or a json array | String&lt;variable&gt; &#124; array | True |
-| Separator | The element separator | String | False |
+| Separator | The element separator `(default \b)` | String | False |
 
 ### Returns
 > String

@@ -6,7 +6,7 @@
 ### Fields
 | name | description | type | required |
 |------|-------------|------|----------|
-| ReturnId | Unknown | Boolean | True |
+| ReturnId | Whether or not to return message Id `(default: no)` | Boolean | True |
 
 ### Returns
 > ReturnId ? Number : Void

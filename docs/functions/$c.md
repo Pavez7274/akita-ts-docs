@@ -6,12 +6,12 @@
 ### Fields
 | name | description | type | required |
 |------|-------------|------|----------|
-| Comment | Unknown | String | False |
+| Comment | The comment (this  will not be executed) | String | False |
 
 ### Returns
 > Void
 
 ### Example
 > ```php
-$c[$break, this will not be executed]
+$c[$break is a util function]
 ```

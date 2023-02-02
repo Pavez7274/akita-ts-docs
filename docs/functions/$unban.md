@@ -6,9 +6,9 @@
 ### Fields
 | name | description | type | required |
 |------|-------------|------|----------|
-| User | Unknown | Snowflake&lt;user&gt; | True |
-| Options | Unknown | String | False |
-| Guild | Unknown | Snowflake&lt;guild&gt; | False |
+| User | The user Id that will be unbanned | Snowflake&lt;user&gt; | True |
+| Reason | The "why" will be unbanned `(default: none)` | String | False |
+| Guild | The guild Id where this action will take place `(defalut: ?ContextGuildId)` | Snowflake&lt;guild&gt; | False |
 
 ### Returns
 > Boolean

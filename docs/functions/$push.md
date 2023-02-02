@@ -6,8 +6,8 @@
 ### Fields
 | name | description | type | required |
 |------|-------------|------|----------|
-| Key | Unknown | String&lt;variable&gt; | True |
-| ...items | Unknown | Any | True |
+| Key | The key of array | String&lt;variable&gt; | True |
+| ...items | The elements to add | Any | True |
 
 ### Returns
 > Number

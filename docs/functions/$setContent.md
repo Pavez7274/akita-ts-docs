@@ -13,5 +13,5 @@
 
 ### Example
 > ```php
-$content[stop crying mid!!]
+$setContent[stop crying mid!!]
 ```

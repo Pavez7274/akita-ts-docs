@@ -8,7 +8,7 @@
 |------|-------------|------|----------|
 | Index | The index of the embed | Number[0,4] | True |
 | Text | The title of the embed | String | True |
-| Url | The title url of the embed | String&lt;URL&gt; | False |
+| Url | The url of the embed | String&lt;URL&gt; | False |
 
 ### Returns
 > Void

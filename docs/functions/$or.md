@@ -6,7 +6,7 @@
 ### Fields
 | name | description | type | required |
 |------|-------------|------|----------|
-| Args | Unknown | Any &#124; condition | True |
+| Args | Unknown | Any | True |
 
 ### Returns
 > Any

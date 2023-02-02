@@ -5,6 +5,14 @@
 
 - - -
 
+# What's new?
+- Added $user
+- Added $warp
+- Added $isValidHex
+- Minor fixes
+
+- - -
+
 ```js
 // import { AkitaClient } from "akita.ts";
 var { AkitaClient } = require("akita.ts"),
@@ -16,7 +24,7 @@ client.addCommand({
     names: ["test"],
     type: "MESSAGE",
     code: `
-    $content[Hi $author[username]!]
+    $setContent[Hi $author[username]!]
     $send[no]
     `
 });
