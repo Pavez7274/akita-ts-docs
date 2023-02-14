@@ -1,13 +1,3 @@
-<!-- docs/_sidebar.md -->
-
-- **Getting started**
-
-* [Home](/)
-* [Types](/types.md)
-* [Advanced](/advanced.md)
-
-- **Functions**
-
 * [$ban](functions/$ban.md)
 * [$unban](functions/$unban.md)
 * [$flat](functions/$flat.md)

@@ -5,13 +5,13 @@
 
 - - -
 
-# What's new?
+<!-- # What's new?
 - Added $user
 - Added $warp
 - Added $isValidHex
 - Minor fixes
 
-- - -
+- - - -->
 
 ```js
 // import { AkitaClient } from "akita.ts";
@@ -43,32 +43,13 @@ client.interpreter.addFunction({
         .setValue('description', 'THE FUNCTION DESCRIPTION') // "makes something"
         .setValue('use', 'AN EXAMPLE OF USE') // "$myFunc[arg1;arg2;...rest]"
         .setValue('returns', 'TYPE'), // "String"
-    code: async (d: Data) => {
-        // This will allow the inside of $myFunc to be executed! ("d" IS necessary)
-        // await d.func.resolve_overloads(d);
+    code: async function () => {
+        // This will allow the inside of $myFunc to be executed!
+        // await this.resolveFields()
 
-        // This execute an especific field of $myFunc ("d" IS necessary)
-        // await d.func.resolve_overload(d, index);
-        return {
-            code: d.code.replace(d.func.id, /* result, use "" for void value*/)
-        };
+        // This execute an especific field of $myFunc
+        // await this.resolveFields(index, end?);
+        return this.makeReturn(/* result value here */)
     }
 });
-~~~
-
-### Function Interface <small>*(for d.func)*</small>
-
-~~~json
-{
-    "resolve_fields": "ASYNC FUNCTION",
-    "resolve_field": "ASYNC FUNCTION",
-    "fields": [{
-        "value": "STRING",
-        "overs": "Array<FUNCTION DATA>",
-    }, "..."],
-    "inside": "STRING",
-    "total": "STRING",
-    "name": "STRING",
-    "id": "STRING"
-}
 ~~~
