@@ -1,6 +1,6 @@
 # **$randomValue**
 > **...** <br/>
-> $random[key]
+> $randomValue[key]
 - - -
 
 ### Fields
