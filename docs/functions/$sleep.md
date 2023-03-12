@@ -1,6 +1,6 @@
-# **$randomNumber**
-> **Produces a random number between min and max** <br/>
-> $randomNumber[min;max;decimals?]
+# **$sleep**
+> **Sleep the execution** <br/>
+> $sleep[time]
 - - -
 
 ### Fields
@@ -10,9 +10,9 @@
 | Max | Unknown | Number | True |
 
 ### Returns
-> Any
+> Void
 
 ### Example
 > ```php
-$randomNumber[0;400] // random number between 0 and 400
+$sleep[20s]
 ```
